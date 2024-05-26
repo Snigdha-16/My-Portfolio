@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education</title>
+  <!-- <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" /> -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <header>
+
+    <div class="logo">
+      <a href="#"><i class="fa-solid fa-user-graduate"></i></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project.html">Projects</a></li> 
+        <li><a href="eduction.html">Education</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="hirebtn">
+        <a href="mailto:snigdhatiwari004@gmail.com"> Hire Me </a>
+      </div>
+    </nav>
+    <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+    <div class="close-icon"><i class="fa-solid fa-xmark"></i></div>
+
+  </header>
+<section class="education">
+  <div class="container">
+    <h2 class="animate__animated animate__backInDown">Education</h2>
+    <div class="animate__animated animate__bounceInLeft">
+<h3>Bachelor of Technology in Computer Science and Engineering</h3>
+<p><strong>Babu Banarasi Das University, Lucknow</strong><br /><em>2019 - 2023</em><br /><strong>CGPA</strong>: 9.14</p>
+<h3>Higher Secondary Education</h3>
+<p><strong>Sant Pathik School, Bahraich</strong><br /><em>2018 - 2019</em></p>
+<h3>Secondary Education</h3>
+<p><strong>Sant Pathik School, Bahraich</strong><br /><em>2016 - 2017</em></p>
+  </div>
+</div>
+</section>
+
+<script>
+    
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.querySelector(".menu-icon");
+    const nav = document.querySelector("nav");
+  
+    menuIcon.addEventListener("click", () => {
+      nav.classList.toggle("open");
+      if (nav.classList.contains("open")) {
+        menuIcon.innerHTML = "&#10006;";
+      } else {
+        menuIcon.innerHTML = "&#9776;";
+      }
+    });
+  });
+  
+    </script>
+</body>
+
+</html>

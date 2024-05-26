@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact-Us</title>
+  <!-- <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" /> -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <header>
+
+    <div class="logo">
+      <a href="index.html"><i class="fa-solid fa-user-graduate"></i></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="eduction.html">Education</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="hirebtn">
+        <a href="mailto:snigdhatiwari004@gmail.com"> Hire Me </a>
+      </div>
+    </nav>
+    <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+    <div class="close-icon"><i class="fa-solid fa-xmark"></i></div>
+
+  </header>
+
+<section class="contact">
+    <div class="container">
+        <h1 class="animate__animated animate__backInDown">My Contact Details</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="con-detail  animate__animated animate__bounceInLeft">
+                <i class="fa-solid fa-phone-volume"></i>
+                <h4>Phone Number</h4>
+                <a href="tel:+918858925929">8858925929</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="con-detail animate__animated animate__bounceInLeft">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/+918858925929">8858925929</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="con-detail  animate__animated animate__bounceInLeft">
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Address</h4>
+                <a href="https://maps.app.goo.gl/TFHDWuTkiyBdkra8A">Sector-71 Noida</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="con-detail  animate__animated animate__bounceInLeft">
+                <i class="fa-brands fa-github"></i>
+                <h4>Github</h4>
+                <a href="https://github.com/Snigdha-16">Github.me</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="con-detail  animate__animated animate__bounceInLeft">
+                <i class="fa-brands fa-linkedin"></i>
+                <h4>Linkedin</h4>
+                <a href="https://www.linkedin.com/in/snigdha-tiwari-0852411ba/">Linkedin.me</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="con-detail  animate__animated animate__bounceInLeft">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Email</h4>
+                <a href="mailto:snigdhatiwari004@gmail.com">snigdhatiwari004@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<script>
+    
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuIcon = document.querySelector(".menu-icon");
+      const nav = document.querySelector("nav");
+    
+      menuIcon.addEventListener("click", () => {
+        nav.classList.toggle("open");
+        if (nav.classList.contains("open")) {
+          menuIcon.innerHTML = "&#10006;";
+        } else {
+          menuIcon.innerHTML = "&#9776;";
+        }
+      });
+    });
+    
+      </script>
+</body>
+
+</html>

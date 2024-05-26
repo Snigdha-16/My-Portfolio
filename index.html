@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snigdha-Portfolio</title>
+  <!-- <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" /> -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <header>
+
+    <div class="logo">
+      <a href="index.html"><i class="fa-solid fa-user-graduate"></i></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li> 
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="eduction.html">Education</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="hirebtn">
+        <a href="mailto:snigdhatiwari004@gmail.com"> Hire Me </a>
+      </div>
+    </nav>
+    <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+    <div class="close-icon"><i class="fa-solid fa-xmark"></i></div>
+
+  </header>
+  <!-- banner -->
+  <section>
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="bancontent animate__animated animate__backInLeft">
+              <h3>Hii I'm  <span> Snigdha Tiwari</span> </h3>
+              <h1>Web Designer</h1>
+              <p>With one year of experience, I'm a skilled web designer proficient in HTML, CSS, JavaScript, React,
+                WordPress, Photoshop, and Figma. I specialize in crafting visually appealing websites and applications
+                that prioritize user experience. From customizing WordPress themes to developing responsive e-commerce
+                platforms with React, my projects reflect versatility and creativity. I excel in creating captivating
+                visual elements using Photoshop and streamline the design process with Figma. </p>
+            </div>
+            <div class="btn"><a href="tel:+8858925929">Contac Us!</a>
+           
+            <a href="https://drive.google.com/file/d/1BSJotFNfvacsiloGle_lr2Cu9tf6Ltcp/view" target="_blank">Download PDF</a></div>
+          </div>
+          <div class="col-md-5">
+            <div class="img-probox  animate__animated animate__backInRight">
+            <img src="images/profile .png" alt=""></div>
+          </div>
+
+       
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- banner -->
+
+  <script>
+    
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuIcon = document.querySelector(".menu-icon");
+      const nav = document.querySelector("nav");
+    
+      menuIcon.addEventListener("click", () => {
+        nav.classList.toggle("open");
+        if (nav.classList.contains("open")) {
+          menuIcon.innerHTML = "&#10006;";
+        } else {
+          menuIcon.innerHTML = "&#9776;";
+        }
+      });
+    });
+    
+      </script>
+ 
+</body>
+
+</html>
